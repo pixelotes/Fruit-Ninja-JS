@@ -68,6 +68,7 @@ var main = {
         game.load.image('3fail', 'assets/fail/3fail.png');
         game.load.image('4fail', 'assets/fail/4fail.png');
         game.load.image('5fail', 'assets/fail/5fail.png');
+    
     },
 
     create: function () {
