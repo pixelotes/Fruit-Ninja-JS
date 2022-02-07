@@ -43,7 +43,7 @@ var title = {
 	
 };
 
-                var game = new Phaser.Game(ancho, alto, Phaser.AUTO, 'game');
-                game.state.add('main', main);
-				game.state.add('title', title);
-				game.state.start('title');
+var game = new Phaser.Game(ancho, alto, Phaser.AUTO, 'game');
+game.state.add('main', main);
+game.state.add('title', title);
+game.state.start('title');
